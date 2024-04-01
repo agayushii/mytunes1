@@ -1,0 +1,155 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'PT Sans ', sans-serif;
+}
+header{
+    width: 100%;
+    position: fixed;
+    background-color: rgb(51, 49, 49);
+    .links{
+    ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        padding: 8px;
+        a{
+            text-decoration: none;
+            color: white;
+            margin: 20px;
+            font-size: 14px;
+        }
+    }
+}
+}
+.mytunes{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-image: url(images/boy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .text{
+        color: white;
+        margin: 40px;
+        >h1{
+            font-size: 50px;
+        }
+        >h4{
+            font-size: 25px;
+        }
+        >p{
+            font-size: 19px;
+        }
+    }
+}
+.Music{
+    text-align: center;
+    padding: 5%;
+    background-color: #252529;
+    .musictext{
+        color: white;
+        >h1{
+            font-size: 35px;
+        }
+        >h2{
+            font-size: 25px;
+        }
+        >p{
+            font-size: 18px;
+        }
+    }
+    .m-btn{
+        background-color: #b90415;
+        padding: 14px;
+        border: none;
+        color: white;
+        font-size: 12px;
+        margin: 20px;
+    }
+    .m-btn:hover{
+        background-color: #d3071b;
+    }
+}
+.video{
+    background-color: white;
+    padding: 60px;
+    .vdo-text{
+        text-align: center;
+        color: #333;
+        padding: 3px;
+        >h1{
+            font-size: 30px;
+            font-weight: 2rem;
+        }
+        >p{
+            font-size: 18px;
+        }
+        .vdo-btn{
+            padding: 14px;
+            border: none;
+            background-color:#103063 ;
+            color: white;
+        }
+        .vdo-btn:hover{
+            background-color: #143f85;
+        }
+    }
+}
+.night{
+    display: flex;
+    align-items: center;
+    background-image: url(images/night.jpg)  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    .n-text{
+        padding: 50px;
+        color: white;
+        text-align: center;
+        >h1{
+            font-size: 30px;
+        }
+        >p{
+            font-size: 18px;
+        }
+    }
+}
+.Gift-Cards{
+    display: flex;
+    padding: 50px;
+    gap: 30px;
+}
+.redeem a{
+    list-style: none;
+    text-decoration: none;
+    color: #252529;
+}
+.footer{
+    background-color: #252529;
+    .col{
+        padding: 50px;
+        display: flex;
+        color: rgba(255, 255, 255, 0.815);
+        justify-content: space-around;
+        li{
+            list-style: none;
+            padding: 2px;
+            text-decoration: none;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 12px;
+        }
+    }
+}
+.foot{
+    text-align: center;
+    color: azure;
+    background-color: #333;
+    padding: 10px;
+}
